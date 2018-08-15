@@ -2,7 +2,7 @@
 // Created by qiyu on 10/23/17.
 //
 #ifdef _MSC_VER
-#include <include/mysql.h>
+#include <mysql.h>
 #else
 #include <mysql/mysql.h>
 #endif

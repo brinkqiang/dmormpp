@@ -18,8 +18,6 @@ IF (WIN32)
             ENDIF()
     	ENDIF()
     ENDIF()
-    
-    
 ELSEIF (APPLE)  
     MESSAGE(STATUS "Now is Apple systems")  
 
@@ -76,7 +74,6 @@ ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cc
 ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
 ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp
 ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h)
-
 
 IF (WIN32)
     ADD_EXECUTABLE(dmormpptest ${dmormpptest_SOURCES})
